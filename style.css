@@ -1,0 +1,234 @@
+:root{
+    --primary: rgb(10, 30, 85);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainCont{
+
+    width:45%;
+    height: 65vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.left{
+
+    height:100%;
+    width:50%;
+    background: linear-gradient(
+        45deg,
+        rgb(26, 25, 105) 0px,
+        rgb(53, 41, 117) 80px
+      );
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.top{
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.top h1{
+
+    color: white;
+    font-size: 1.2em;
+}
+.middle{
+
+    width:100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle .circle{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow:1px 1px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.circle h1{
+
+    color: white;
+    font-size: 1.5em;
+}
+
+.bottom{
+
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.bottom h1{
+
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.bottom p{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    text-align: center;
+}
+
+.right{
+
+    height:100%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.right .title{
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title h2{
+
+    font-size: 1.5em;
+}
+
+.stats{
+
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+ 
+}
+
+.statDiv{
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 6px;
+}
+
+.statDiv .icon{
+
+    height: 100%;
+    width: 15%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.statDiv .title{
+
+
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.statDiv .stat{
+ 
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
+#one{
+
+    background: rgba(145, 26, 26, 0.425);
+    color: red;
+}
+
+#two{
+
+    background: rgba(233, 107, 34, 0.425);
+    color: orange;
+}
+
+#three{
+
+    background: rgba(17, 94, 17, 0.425);
+    color: green;
+}
+#four{
+
+    background: rgba(36, 14, 134, 0.425);
+    color: blue;
+}
+
+.button{
+
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button{
+    width: 80%;
+    height: 6vh;
+    color: white;
+    background-color: rgb(20, 20, 54);
+    border-radius: 6px;
+    border: none;
+    font-size: 1.3em;
+}
